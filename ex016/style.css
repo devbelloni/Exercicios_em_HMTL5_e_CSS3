@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    /*height: 100%;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+main{
+    background-color: azure; 
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #382916b2;
+}
+
+body{
+    /*Palheta utilizada peguei no adobe color:background-image: #C5AF75
+    #906844
+    #B3893A
+    #594123
+    #191718
+    color theme_La hermana del min
+    */
+    background-image: linear-gradient(to left, #B3893A,#C5AF75);
+}
+h1{
+    color: #191718;
+    text-align: center;
+    text-shadow: 1px 1px 2px #B3893A;
+}
+
+h2{
+color: #594123 ;
+}

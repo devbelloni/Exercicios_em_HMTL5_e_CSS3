@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        div{
+            display: inline-block;
+            background-color: lightgray;
+            text-align: center;
+            height: 200px;
+            width: 200px;
+            border: 1px solid black;
+        }
+        div#d1{
+            background-color: blue;
+        }
+        div:hover{
+            background-color: crimson;
+        }
+
+        div#a1:hover{
+            color:darkblue;
+        }
+        div#a1 > p {
+           
+            display:none;
+        }
+        div#a1:hover > p {
+            display: block;
+            color:black;
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pseudoclasses</h1>
+    <p> Configuração geral: <br>
+        display: inline-block; <br>
+        background-color: lightgray; <br>
+        text-align: center; <br>
+        height: 200px; <br>
+        width: 200px; <br>
+        border: 1px solid black;</p>
+    <div id="d1">01</div>
+    <div id="d2">02</div>
+    <div id="d3">03</div>
+<p>Pseudoclasses são identificados por dois pontos :</p>
+<p>div:hover{} 
+    <br>você consegue colocar detalhes nas divs.
+</p>
+<h1>Mais exemplos de pseudoclass</h1>
+<p>Posso fazer uma pseudoclass onde eu coloc uma mensgame no div quando eu passo o mouse .</p>
+<div id="a1">passe o mouse aqui
+    <p>Texto Escondido...</p>
+</div>
+<p>       div#a1 > p { <br>
+           
+    display:none; <br>
+} <br>
+div#a1:hover > p { <br>
+    display: block; <br>
+    color:black; <br>
+    background-color: violet; <br>
+}</p> 
+
+</body>
+</html>

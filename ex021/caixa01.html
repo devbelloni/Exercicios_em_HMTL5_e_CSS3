@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+            background-color: rgb(127, 168, 255);
+            width: 300px;
+            height: 300px;
+            
+            border: 10px groove gray;
+
+            padding: 10px; 
+            margin: 10px auto;
+            outline: 20px;
+        }
+        a{
+            border-width: 3px;
+            border-style: dotted;
+            border-color:green
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level.</a>Vamos ver como isso funciona.</p>
+    <p>Usando o devtolls eu posso mexer na exibição. É um método de obter um teste de visualização, mas sem alteraro arquivo original.</p>
+    <p>Posso criar uma borda com border-width</p>
+    <p>O bom do devtools é que eu posso usar para treinamento.</p>
+    <p>Usando o padding como top, right, bottom e left crio um afastamento. Sempre é bom manter o sentido do relógio no padding.</p>
+
+    <h2>Margem</h2>
+    <p>Para usar margem, uso o comando margim. Dessa forma, configuro as margens do site, inclusive podendo centralizar o quadro como margin: auto. Isto fica no lugar de usar:
+        <li>margin-top: 10px ;
+        <li>margin-right: 10px ;
+        <li>margin-bottom:  10px;
+        <li>margin-left:  10px;
+    </p>
+
+    <h2>Outline</h2>
+<p>O Outline é uma borda externa. Mas dentro da margem, podendo estrapolar a margem.</p>
+
+<h2>Simplificando a borda</h2>
+<p>Posso simplificar todos os comandos border usando um só comando. border espessura estilo cor. Isto fica no lugar de:
+    <li>border-width: 10px;
+    <li>border-style: groove;
+    <li>border-color: gray;
+</p>
+<h2>Simplificando padding</h2>
+<p>Posso simplificar o padding usando padding toppx rightpx bottompx leftpx. <br> Assim fica padding: 10px 10px 10px 10px para escrever:
+    <li>padding-top: 10px;
+    <li>padding-right: 10px;
+    <li>padding-bottom: 10px;
+    <li>padding-left: 10px;
+        <br>Se as 4 forem iguais, posso por padding: 10px.
+    </p>
+
+    <h2>Configurando block e inline</h2>
+    <p>Por padrão, o h1 é block e o link é inline. Mas posso mudar isso. Basta colocar display pra definir. display: block ou display: inline. </p>
+</body>
+</html>

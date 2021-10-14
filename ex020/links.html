@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        a{
+            color: red;
+            text-decoration: none;
+        }
+        a:visited{
+            color: salmon;
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a::after{
+            content: ' [Link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: slategray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+<li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório Github</a></li>
+<li><a href="https://youtube.com/cursoemvideo">Canal do Youtube</a></li>
+<li><a href="https://www.cursoemvideo.com">Site do Curso em video</a></li>
+<p>Eu posso criar links e personalizar as cores com a: e a:visited. Existem outras opções também.</p>
+<p>    a{                           <br>
+    color: red;                     <br>
+    text-decoration: none;          <br>
+}                                   <br>
+a:visited{                          <br>
+    color: salmon;                  <br>
+}                                   <br>
+a:hover{                            <br>
+    color: black;                   <br>
+    text-decoration: underline;</p>
+
+    <p>Posso usar o pseudoelementos. O simbolo em stilos é "::". Porexemplo se eu quiser que todo link no final tenha a indicação de que é um link.</p>
+    <p>
+        a::after{                   <br>    
+            content: ' [Link]';     <br>
+            text-decoration: none;  <br>
+            font-weight: normal;    <br>
+            color: slategray;       <br>
+        }   
+    </p>
+</body>
+</html>

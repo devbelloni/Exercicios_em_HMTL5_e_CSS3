@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+<style>
+    body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: cadetblue;
+            margin: 0px;
+    }
+    header{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    nav{
+        background-color: rgb(57, 61, 66);
+        padding: 3px;
+        box-shadow: 5px 3px 7px 1px black;
+
+    }
+
+    nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+    }
+
+    nav > a:hover{
+        text-decoration: underline;
+    }
+
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px 0px;
+        box-shadow: 4px 4px 9px 0px black;
+    }
+
+    article{
+        background-color: lightgray;
+        padding: 5px;
+    }
+
+    article > aside{
+        background-color: rgb(106, 112, 106);
+    }
+
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 1px;
+        margin: 0px;
+
+    }
+
+    footer > p{
+        margin: 0px;
+    }
+
+    div#bola{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: blue;
+        border-radius: 50%;
+    }
+    </style>
+
+</head>
+<body>
+    <header><h1>Grouping Tags</h1>
+     <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+      </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Grouping Tags</h1>
+            <p>As gouping tags são as divs e spans. Sendo que div são box level e span são tags level.
+                <br>Antigamente, colocava divs dentro de divs. Mas hoje em dia na versão html5, tem maneiras de fazer de forma diferente. Existem as grouping tags semanticas. Isso facilita os mecanismos de busca.
+                <br>
+                Posso usar header, main e footer. Os navegadores preferem. 
+            </p>
+        </section>
+<section id="noticias">
+    <article>
+        <h2>Usando section, article e aside.</h2>
+            <p>Dentro de uma seccion do main, devidfamente identificada pelo id, posso criar articles que são tudo caixas. Nos articles posso criar um aside que é uma anotação dentro do article. Posso por articles e dentro, por sections, ou vice versa.</p>
+
+        <aside>
+            <p>Autor: eu mesmo.</p>
+        </aside>
+    </article>
+<article></article>
+</section>
+<section id="assuntos">
+    <h1>Sombras</h1>
+    <p>Posso criar sombras no documento. Não preciso colocar sombrar muito fortes. Impostante é deixar o cérebro do usuário perceber isso, sutilmente.
+        <br>
+    Não é interessante colocar sombras colocridas, pois as sombras são pretas. O interessante é mudar a transparência da cor da sombra.
+        <br>
+    Posso usar header, main e footer. Os navegadores preferem. 
+    <br>
+    Para arredondar aws bordas, posso usar         border-radius: 10px. Posso usar o dev tools para experimentar os tamanhos de bordas.
+    <br>Ou fazer bordas separadas.
+    <li>        border-radius: 10px 40px;</li>
+
+    </p>
+    <h2>Criando um abola</h2>
+    <p>Posso criar uma bola arredondando os cantos de um quadrado.
+        <br>
+        div#bola{
+            <br>height: 100px;
+            <br>width: 100px;
+            <br>margin: 10px;
+            <br>background-color: blue;
+            <br>border-radius: 50%;
+        }
+    </p>
+</section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Márcio Belloni</p>
+    </footer>
+
+    <div id="bola">
+        
+    </div>
+
+    
+
+<div></div>
+<span></span>
+
+</body>
+</html>

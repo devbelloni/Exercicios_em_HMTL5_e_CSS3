@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo Vídeos hospedados localmente.</h1>
+    <p>
+        Este vídeo está hospedado no servidor.
+    </p>
+<!--    <video src="midia/Meu-Video-m4v.m4v" width="500" controls></video>-->
+    <p>Para rodar em qualquer navegador, devo fazer como foi feito com o audio.
+    </br> Usar uma tag de video. Interessante chamar nos sources os formatos mp4(mpeg), OGV, webm e MKV. 
+    </p>
+    <video  controls loop autoplay poster="midia/sete montanhas.jpg" width="500" > 
+        <source src="midia/Meu-Video-m4v.m4v" type="video/mp4">
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com este formato de vídeo. <a href="midia/meu-video.mp4" Clique aqui para baixar o arquivo.></a> </p>
+    </video>
+    <p>Aqui foi inserido um exemplo de video no servidor</p>
+    <p>Videos hospedados no servidor pode custar muito caro, porque cada acesso fará o download do video.
+      <br>  Existe um modo de fazer isso sem ter que hospedar o video diretamente no servidor.
+    </p>
+<h1>
+    Inserindo vídeo do youtube
+</h1>
+<p>Ir no video do youtube, clicar em incorporar e copiar o código. Colar na página.</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lkQQGmM4r44" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<p> Então, pega qualquer video que eu produzi, subo no youtube, e incorporo no site de forma simples. Mas às vezes eu quero que o youtube seja mais uma publicidade.
+<br>
+Posso utilizar o vimeo também, porque nele eu posso deixar privado, como um serviço pago anual. Contudo, é interessante o codec do youtube por causa que o video é fluído.</p>
+</body>
+</html>

@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    background-color:rgb(221, 221, 54);
+    text-shadow: brown;
+
+}
+h1{
+    color: darkgreen;
+    text-decoration-line:underline;
+}
+h2{
+    color: rgb(241, 6, 6);
+}
+p{
+    text-align: justify;
+}
